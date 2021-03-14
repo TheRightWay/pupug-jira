@@ -10,4 +10,4 @@ Actions
 
 Services events
 
-![alt text](https://github.com/TheRightWay/pupug-jira/blob/main/doc/service-events.jpg?raw=true)
+![alt text](https://github.com/TheRightWay/pupug-jira/blob/lesson3/doc/service-events.jpg?raw=true)
