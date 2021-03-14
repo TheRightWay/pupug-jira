@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    models:
+      task_list: Task List
+    attributes:
+      task_list:
+        statuses:
+          open: Open
+          close: Close
