@@ -36,7 +36,41 @@
 /todo/public/packs-test
 /todo/node_modules
 /todo/yarn-error.log
-/todoyarn-debug.log*
-/todo.yarn-integrity
+/todo/yarn-debug.log*
+/todo/.yarn-integrity
 /todo/.idea/
 /.idea/
+
+
+# Ignore bundler config.
+/auth/.bundle
+
+
+# Ignore all logfiles and tempfiles.
+/auth/log/*
+/auth/tmp/*
+!/auth/log/.keep
+!/auth/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/auth/tmp/pids/*
+!/auth/tmp/pids/
+!/auth/tmp/pids/.keep
+
+# Ignore uploaded files in development.
+/auth/storage/*
+!/auth/storage/.keep
+
+/auth/public/assets
+/auth/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/auth/config/master.key
+
+/auth/public/packs
+/auth/public/packs-test
+/auth/node_modules
+/auth/yarn-error.log
+/auth/yarn-debug.log*
+/auth/.yarn-integrity
+/auth/.idea/
