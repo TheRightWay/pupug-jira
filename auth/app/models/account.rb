@@ -18,9 +18,9 @@ class Account < ApplicationRecord
 
   enum role: {
     admin: 'admin',
-    accounting_clerk: 'accounting_clerk',
-    repairman: 'repairman',
-    employee: 'employee'
+    analytic: 'analytic',
+    manager: 'manager',
+    developer: 'developer'
   }
 
 
