@@ -85,6 +85,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    doorkeeper (5.5.0)
+      railties (>= 5)
     erubi (1.10.0)
     ffi (1.15.0)
     globalid (0.4.2)
@@ -112,6 +114,8 @@ GEM
     nokogiri (1.11.2-x86_64-darwin)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    paranoia (2.4.3)
+      activerecord (>= 4.0, < 6.2)
     pg (1.2.3)
     public_suffix (4.0.6)
     puma (5.2.2)
@@ -219,8 +223,10 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   devise
+  doorkeeper
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  paranoia
   pg (~> 1.1)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
